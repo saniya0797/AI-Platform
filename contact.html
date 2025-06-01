@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - AI Visionaries</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="overlay"></div>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <h1>AI Visionaries</h1>
+            <p class="subtitle">A Division of Pascal Blais Animation</p>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="rd.html">R&D</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <main class="contact-page">
+        <section class="contact-header">
+            <h1>Get in Touch</h1>
+        </section>
+
+        <section class="contact-content">
+            <div class="contact-info">
+                <div class="region">
+                    <h2>CANADA</h2>
+                    <p>Pascal Blais</p>
+                    <p>Email: <a href="mailto:info@ai-visionaries.com">info@ai-visionaries.com</a></p>
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.3485376492847!2d-73.57772372374061!3d45.52145657107607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91bd49955b0b1%3A0x2c2603843a9627d7!2sPascal%20Blais%20Animation!5e0!3m2!1sen!2sus!4v1709774899811!5m2!1sen!2sus"
+                            width="100%"
+                            height="300"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="region">
+                    <h2>LATIN AMERICA</h2>
+                    <p>Flor Vega</p>
+                    <p>Email: <a href="mailto:flor@miafilmsnetwork.com">flor@miafilmsnetwork.com</a></p>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h2>Contact us</h2>
+                <form id="contactForm" action="#" method="POST">
+                    <div class="form-group">
+                        <input type="text" id="firstName" name="firstName" required placeholder="First name*">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="lastName" name="lastName" placeholder="Last name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder="Email*">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Write a message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html> 
